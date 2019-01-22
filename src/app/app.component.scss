@@ -17,8 +17,8 @@ $color-pink: #FF8C94;
 	min-height: 50vh;
 }
 
-.vh-25{
-	min-height: 25vh;
+.vh-15{
+	min-height: 15vh;
 }
 
 .vh-75{
@@ -41,7 +41,9 @@ $color-pink: #FF8C94;
   transform: translateX( -50%);
   height: 100%;
   width: 100vw;
-	background: linear-gradient(192deg, $color-white 70%, $color-green 30%);
+	/*background: $color-white;*/
+	/*background-image: url("../assets/photos/gym.jpg"); fallback */
+	background: linear-gradient(192deg, #FFFFFF00 70%, $color-green 30%), url("../assets/photos/gym.jpg");
 }
 
 .bbg-full {
