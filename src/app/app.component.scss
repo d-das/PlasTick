@@ -1,3 +1,11 @@
+$color-white: #FCE4EC;
+$color-green: #99B898;
+$color-yellow: #FECEAB;
+$color-orange: #FF847C;
+$color-red: #E84A5F;
+$color-black: #2A363B;
+$color-pink: #FF8C94;
+
 .left-cont{
 	display: inline-block;
 	min-height: 50vh;
@@ -9,6 +17,161 @@
 	min-height: 50vh;
 }
 
-.vh-50{
-	min-height: 50vh;
+.vh-100{
+	min-height: 100vh;
 }
+
+.vh-75{
+	min-height: 65vh;
+}
+
+.vh-25{
+	min-height: 25vh;
+}
+
+.body{
+	overflow-x: hidden;
+}
+
+.abg-full {
+  position: relative;
+}
+
+.abg-full:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX( -50%);
+  height: 100%;
+  width: 100vw;
+  background-color: $color-white;
+}
+
+.bbg-full {
+  position: relative;
+}
+
+.bbg-full:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX( -50%);
+  height: 100%;
+  width: 100vw;
+  background-color: $color-green;
+}
+
+.cbg-full {
+  position: relative;
+}
+
+.cbg-full:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX( -50%);
+  height: 100%;
+  width: 100vw;
+  background-color: $color-yellow;
+}
+
+.dbg-full {
+  position: relative;
+}
+
+.dbg-full:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX( -50%);
+  height: 100%;
+  width: 100vw;
+  background-color: $color-orange;
+}
+
+.ebg-full {
+  position: relative;
+}
+
+.ebg-full:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX( -50%);
+  height: 100%;
+  width: 100vw;
+  background-color: $color-red;
+}
+
+.fbg-full {
+  position: relative;
+}
+
+.fbg-full:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX( -50%);
+  height: 100%;
+  width: 100vw;
+  background-color: $color-pink;
+}
+
+.gbg-full {
+  position: relative;
+}
+
+.gbg-full:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX( -50%);
+  height: 100%;
+  width: 100vw;
+  background-color: $color-black;
+}
+
+
+/*
+Number 2:
+$color-white: #FCE4EC;
+$color-green: #99B898;
+$color-orange: #FECEAB;
+$color-pink: #FF847C;
+$color-red: #E84A5F
+$color-black: #2A363B
+
+400s:
+white: #FCE4EC
+red: #EF5350
+pink: #EC407A
+purple: #AB47BC
+blue: #42A5F5
+cyan: #26C6DA
+green: #66BB6A
+amber: #FFCA28
+blue gray: #78909C
+
+
+Pink 50 #FCE4EC
+100 #F8BBD0
+200 #F48FB1
+300 #F06292
+400 #EC407A
+500 #E91E63
+600 #D81B60
+700 #C2185B
+800 #AD1457
+900 #880E4F
+A100 #FF80AB
+A200 #FF4081
+A400 #F50057
+A700 #C51162
+*/
